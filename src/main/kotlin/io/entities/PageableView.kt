@@ -8,6 +8,4 @@ data class PageableView<T : Serializable>(
     var lastId : Long,
     var limit : Int,
     var allIds : Int
-) : Serializable {
-
-}
+) : Serializable
